@@ -7,7 +7,7 @@ const cors = require('cors');
 
 const { initializeApp } = require('firebase-admin/app');
 const admin = require('firebase-admin');
-var serviceAccount = require("../santurbandb-firebase-adminsdk-tqx10-a8ddd84c08.json");
+var serviceAccount = require("..jsonkey generado por firebase");
 
 initializeApp({
     credential: admin.credential.cert(serviceAccount),
