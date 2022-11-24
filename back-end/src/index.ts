@@ -11,7 +11,7 @@ var serviceAccount = require("../santurbandb-firebase-adminsdk-tqx10-a8ddd84c08.
 
 initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://santurbandb-default-rtdb.firebaseio.com'
+    databaseURL: //'credencialesfirebase'
 });
 const db = admin.database();
 
